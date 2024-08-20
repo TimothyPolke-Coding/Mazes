@@ -1,6 +1,7 @@
 //created by TimothyPolke
 
 import java.io.IOException;
+import java.security.SecureRandom;
 import javax.imageio.ImageIO;
 import java.io.ByteArrayOutputStream;
 import java.awt.image.BufferedImage;
@@ -104,7 +105,7 @@ public class Maze extends BufferedImage{
 	}
 	
 	public void chooseDirection(int posX,int posY,ArrayList<Block> visitedCells,ArrayList<Integer> uncheckedDirections){
-		Random rand=new Random();
+		Random rand=new SecureRandom();
 		int direction=0;
 		int xChange=0;
 		int yChange=0;
