@@ -13,10 +13,10 @@ change second parameter, "large", to:
 leave third parameter, "equal", as:
 "equal"
 
-change fourth parameter, "125", to:
+change fourth parameter, "3", to:
 desired number of mazes per thread
 
-change fifth parameter, "1", to:
+change fifth parameter, 2", to:
 desired number of threads
 
 change sixth parameter, "C:/Users/TimothyPolke/Desktop", to:
